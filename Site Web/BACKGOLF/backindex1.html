@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css"/>
+
+        <title>GOLF +</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar">
+        <img href="localhost/backindex1.html" class="logo" src="img/golf+ logo.svg" >
+        
+        <div class="nav-buttons">
+           
+            <ul class="main-nav">
+  
+                  
+              <li><a id="boutonnav" href="newuser.html"><button type="button" class="btn btn-primary">créer un utilisateur</button></a></li>
+              <li><a id="boutonnav" href="GestionPreinscription.php"><button type="button" class="btn btn-primary">Gestion préinscription</button></a></li>
+              <li><a id="boutonnav" href="GestionApprenants.php"><button type="button" class="btn btn-primary">Gestion golfeur</button></a></li>
+              <!--<li><a id="boutonnav"><button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Profil</button></a>-->
+              </li>
+  
+          </ul>
+        </div>
+      </nav>
+      <div class="block golffterrain" style="max-height: 900px;">
+    
+        <div class="block-text surtexte">
+            <h2>Compétition semaine 25</h2>
+            <p> Plongez dans l'excitation de la Semaine 25 de Compétition de Golf : Venez assister à une semaine palpitante de compétition où les meilleurs golfeurs s'affrontent pour la suprématie sur le green. Une succession de rounds intenses et de coups mémorables attendent les passionnés de golf.</p>
+            <div class="block-button">
+                <button>Bouton Bloc 1</button>
+            </div>
+        </div>
+        <div class="block-text surtexte">
+            <h2>Compétition semaine 26</h2>
+            <p>Le Spectacle Continue : Semaine 26 de Passion Golfique : Embarquez pour une nouvelle semaine de compétition passionnante, où les golfeurs élites rivalisent pour atteindre de nouveaux sommets. Chaque journée offre des moments d'exception et des performances spectaculaires.
+
+            </p>
+            <div class="block-button">
+                <button>Bouton Bloc 1</button>
+            </div>
+        </div>
+        <div class="block-text surtexte">
+            <h2>Compétition semaine 27</h2>
+            <p>La Semaine 27, un Chapitre Mémorable : Les enjeux montent d'un cran lors de cette semaine de compétition, où les joueurs affinent leurs compétences et se mesurent dans une bataille intense. Ne manquez pas cette semaine chargée en émotions et en surprises.</p>
+            <div class="block-button">
+                <button>Bouton Bloc 1</button>
+            </div>
+        </div>
+        <img src="img/golfeuse.svg" alt="Image 1" >
+    </div>
+    <div class="golfterrain2" style="max-height: 1080px; padding-left:200px; padding-right: 200px;">
+        <h1>SEMAINE 25</h1>
+        <p>Plongez au cœur de l'excitation pure lors de la Semaine 25 de Compétition de Golf, une expérience inoubliable qui promet de captiver les passionnés de ce sport noble. Cette semaine palpitante est un rendez-vous incontournable pour tous les amateurs de golf, offrant une toile de fond époustouflante où les meilleurs golfeurs du monde s'affrontent avec acharnement pour conquérir la suprématie sur le green.
+
+            Au cours de cette compétition spectaculaire, préparez-vous à être témoin de moments de grâce et de performances exceptionnelles alors que les golfeurs de renom rivalisent dans une série de rounds intensifs. Les fairways impeccables et les greens parfaitement entretenus serviront de terrain de jeu à ces athlètes d'élite, créant une atmosphère électrique où chaque coup peut changer le cours de la compétition.
+            
+            Venez vibrer au rythme des swings parfaits, des putts précis et des drives puissants qui défient les lois de la physique. Les émotions seront à leur comble à mesure que les compétiteurs repoussent leurs limites, offrant aux spectateurs une expérience immersive au plus près de l'action. Les applaudissements retentiront à chaque coup magistral, créant une ambiance enflammée propice à l'enthousiasme collectif.
+            
+            Les enjeux sont élevés, les rivalités sont exacerbées, et chaque participant aspire à inscrire son nom dans l'histoire du golf en se hissant au sommet du classement. Des duels épiques se dérouleront sous vos yeux, laissant place à des retournements de situation imprévisibles qui rendront cette semaine de compétition mémorable.
+            
+            Que vous soyez un fervent adepte de golf ou simplement amateur de moments intenses, la Semaine 25 de Compétition de Golf vous réserve une expérience sensorielle incomparable. Rejoignez-nous pour célébrer l'excellence sportive, l'esprit de compétition et l'art du golf dans toute sa splendeur. Cette semaine sera bien plus qu'un événement sportif, elle sera une célébration de la passion, de la précision et de la détermination incarnées par ces maîtres du green.</p>
+        
+    </div>
+      <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">S'enregistrer</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form action="traitementajoutmessage.php" method="post">
+                <div class="mb-3">
+                  <label for="recipient-name" class="col-form-label">Nom :</label>
+                  <input type="text" class="form-control" id="recipient-name" name="Nom">
+                </div>
+                <div class="mb-3">
+                  <label for="recipient-name" class="col-form-label">Prénom :</label>
+                  <input type="text" class="form-control" id="recipient-name" name="Prenom">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Adresse mail :</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" name="email">
+                </div>
+                <div class="mb-3">
+                  <label for="inputPassword" class="col-form-label">Mot de passe :</label>    
+                  <input type="password" class="form-control" id="inputPassword" name="mdp">
+                </div>
+              
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annuler</button>
+              <button  type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2" data-bs-whatever="@getbootstrap">S'enregistrer</button>
+            </div>
+          </form>
+          </div>
+        </div>
+      </div>
+</body>
+</html>

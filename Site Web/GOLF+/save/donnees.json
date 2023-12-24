@@ -1,0 +1,30 @@
+[
+    {
+        "IDutilisateur": "7",
+        "nom": "m",
+        "prenom": "m",
+        "email": "m@m.m",
+        "competition": "semaine 26"
+    },
+    {
+        "IDutilisateur": "6",
+        "nom": "z",
+        "prenom": "z",
+        "email": "z@z.Z",
+        "competition": "semaine 25"
+    },
+    {
+        "IDutilisateur": "3",
+        "nom": "lea",
+        "prenom": "lea",
+        "email": "lea@lea.lea",
+        "competition": "1"
+    },
+    {
+        "IDutilisateur": "8",
+        "nom": "u",
+        "prenom": "u",
+        "email": "u@u.u",
+        "competition": "semaine 27"
+    }
+]

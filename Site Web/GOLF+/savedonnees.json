@@ -1,0 +1,26 @@
+[
+    {
+        "nom": "johannot",
+        "prenom": "malo",
+        "email": "a@aa.a",
+        "competition": ""
+    },
+    {
+        "nom": "albane",
+        "prenom": "lefranc",
+        "email": "albane@albane.albane",
+        "competition": ""
+    },
+    {
+        "nom": "lea",
+        "prenom": "lea",
+        "email": "lea@lea.lea",
+        "competition": "1"
+    },
+    {
+        "nom": "tortue",
+        "prenom": "tortue",
+        "email": "tortue@tortue.tortue",
+        "competition": "semaine 25"
+    }
+]

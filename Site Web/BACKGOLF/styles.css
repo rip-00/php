@@ -1,0 +1,21 @@
+.center {
+    width : 33%;
+    background-color: #d9d5bb;
+    margin :  auto;
+    margin-top : 10%;
+    padding : 50px;
+    border-radius: 30px;
+}
+
+.btn_primary {
+    background-color: rgb(45, 17, 4) !important;
+}
+
+.center2 {
+    width : 50%;
+    background-color: #d9d5bb;
+    margin :  auto;
+    margin-top : 10%;
+    padding : 50px;
+    border-radius: 30px;
+}
